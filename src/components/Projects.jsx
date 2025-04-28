@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import './Projects.css';
-import LCF from '/images/LifeCycle.png';
-import camera from '/images/camera.jpeg';
-import micro from '/images/micro.png';
-import SimX from '/images/simulationx.png';
+import LCF from '../assets/LifeCycle.png';
+import camera from '../assets/camera.jpeg';
+import micro from '../assets/micro.png';
+import SimX from '../assets/simulationx.png';
 
 const projects = [
   {
