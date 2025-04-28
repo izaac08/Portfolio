@@ -6,13 +6,12 @@ import Projects from './components/Projects';
 import About from './components/About';
 import ExperienceAndEducation from './components/Experience';
 import Contact from './components/Contact';
-import background from './images/purplebackground.jpg'
 
 function App() {
   return (
     <div
       style={{
-        // backgroundImage: "url('/purplebackground.jpg')",
+        backgroundImage: "url('/Portfolio/purplebackground.jpg')",
         backgroundImage: background,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
