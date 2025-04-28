@@ -1,11 +1,15 @@
 import React, { useState } from 'react';
 import './Projects.css';
+import LCF from '/images/LifeCycle.png';
+import camera from '/images/camera.jpeg';
+import micro from '/images/micro.png';
+import SimX from '/images/simulationx.png';
 
 const projects = [
   {
     title: 'Life Cycle Testing',
     description:'Developed a system to automate life cycle testing of latch and slider mechanisms to evaluate durability over their expected lifespan.',
-    image: '/images/LifeCycle.png',
+    image: LCF,
     tags: [ 'Validation Testing', 'Automated Data Acquistion', 'Python Scripting', 'OOP', 'Circuit Design', 'OpenCV', 'Serial Communication', 'C'],
     source: null,
     website: null,
@@ -18,7 +22,7 @@ const projects = [
   {
     title: 'H2O2 Detection System',
     description: 'Camera system designed to detect and log hydrogen peroxide spray presence.',
-    image: '/images/camera.jpeg',
+    image: camera,
     tags: ['OpenCV', 'Python', 'RaspberryPi', 'Fusion360', '3D printing'],
     source: null,
     website: null,
@@ -31,7 +35,7 @@ const projects = [
   {
     title: 'Two-Axis Motion Project',
     description: 'Used two potentiometers for precise X and Y motor control.',
-    image: '/images/micro.png',
+    image: micro,
     tags: ['Interrupts', 'ADCs', 'Git', 'C'],
     source: null,
     website: null,
@@ -41,7 +45,7 @@ const projects = [
   {
     title: 'Modelling Segway - SimluationX',
     description: 'Built a Segway simulation in SimulationX and optimized how far it could travel within specific limits.',
-    image: '/images/simulationx.png',
+    image: SimX,
     tags: ['SimulationX', 'Simulink', 'ODEs'],
     source: 'https://github.com/izaac08/Modelling-Segway/blob/main/Modelling%20Segway%20Technical%20Report.pdf',
     website: null,
