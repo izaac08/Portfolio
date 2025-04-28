@@ -1,0 +1,133 @@
+/* GLOBAL RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: transparent; /* optional fallback */
+  overflow-x: hidden; /* prevent horizontal scroll if any */
+  scroll-padding-top: 80px;
+}
+
+body {
+  margin: 0;
+  /* font-family: Arial, sans-serif; */
+}
+
+h1, h2 {
+  font-family: 'Georgia', serif;
+}
+
+.intro-bullet1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+}
+
+.intro-bullet2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.1rem;
+}
+
+.intro-bullet3 {
+  font-family: 'Courier New', monospace;
+  font-size: 1.1rem;
+}
+
+.container {
+  padding: 2rem;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* This is for icon styling in home */
+
+a svg {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+a:hover svg {
+  color: #a8a8ff; /* or another light purple */
+}
+
+a.cv-link {
+  color: white;
+  /* font-weight: bold; */
+  font-size: 1.75rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a.cv-link:hover {
+  color: #a8a8ff;
+}
+
+/* End of about */
+
+/* Start of Experience Code */
+
+.experience-section {
+  padding: 2rem 0;
+}
+
+.dual-column {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.timeline-column {
+  flex: 1;
+  min-width: 280px;
+}
+
+.timeline {
+  position: relative;
+  margin-left: 40px;
+  border-left: 2px solid white;
+  padding-left: 20px;
+}
+
+.timeline-item {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 2rem;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -31px;
+  top: 4px;
+  width: 14px;
+  height: 14px;
+  background-color: #9146ff;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.timeline-date {
+  font-size: 0.85rem;
+  color: #ccc;
+}
+
+.timeline-content h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.timeline-content p {
+  margin: 0.2rem 0 0;
+}
+
+/* End of Experience Code */
+
