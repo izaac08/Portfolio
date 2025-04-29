@@ -11,7 +11,7 @@ export default function Home() {
           src={profilePic}
           alt="Izaac"
           style={{
-            width: '250px',
+            width: '200px',
             aspectRatio: '1 / 1',       // keeps it square without distortion
             borderRadius: '50%',
             objectFit: 'cover',         // ensures natural crop without squish
