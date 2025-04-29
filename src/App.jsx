@@ -13,7 +13,7 @@ function App() {
     <div
       style={{
         // backgroundImage: `url(${background})`,
-        backgroundImage: "url('/Portfolio/purplebackground.jpg')",
+        backgroundImage: "url('/Portfolio/purplebackground2.jpg')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
