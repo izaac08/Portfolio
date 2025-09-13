@@ -43,7 +43,7 @@ const projects = [
     summary: 'Designed and implemented a two-axis motor control system using an STM32 microcontroller equipped with a multi-channel, 8-bit ADC. Two potentiometers were connected to separate ADC channels to control the voltage input, with the ADC output used to determine motor speed and direction (including reverse). Four non-vectored interrupts were programmed to detect limit switch activations and define the travel bounds of each axis. The system was used to guide a target to a specified coordinate, with its speed and positional accuracy evaluated over three trials based on instructor-defined test scenarios.'
   },
   {
-    title: 'Modelling Segway - SimluationX',
+    title: 'Modelling Segway - SimluationXXX',
     description: 'Built a Segway simulation in SimulationX and optimized how far it could travel within specific limits.',
     image: SimX,
     tags: ['SimulationX', 'Simulink', 'ODEs'],
