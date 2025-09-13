@@ -4,6 +4,7 @@ import LCF from '../assets/LifeCycle.png';
 import camera from '../assets/camera.jpeg';
 import micro from '../assets/micro.png';
 import SimX from '../assets/simulationx.png';
+import Inv from '../assets/inventoryTracker.png';
 
 const projects = [
   {
@@ -23,7 +24,7 @@ const projects = [
   {
     title: 'Inventory Tracker',
     description: 'Expo Go App developed to make the inventory tracking process more efficient at Malivoire.',
-    image: LCF,
+    image: Inv,
     tags: [ 'Expo Go' , 'React Native' ,'JavaScript', 'Mobile Development'],
     source: null,
     website: null,
