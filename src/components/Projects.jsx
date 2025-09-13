@@ -19,6 +19,21 @@ const projects = [
     ' the script sent serial commands to a PCB to open and close the latch (first test). It then set a GPIO pin high, which controlled a NMOS transistor to extend a pneumatic actuator fixed to the slider (second test). Once the slider retracted, the camera again verified latch interlocking. After each cycle, the status of each micro test (i.e open status,'+
      ' close status, interlocked status, etc) were logged to an excel file after the 400 cycles. After two days of cycling, the latch passed every test and met ground bond requirements. However, wear from friction was observed and documented for further mechanical analysis.'
   },
+
+  {
+    title: 'Inventory Tracker',
+    description: 'Expo Go App developed to make the inventory tracking process more efficient at Malivoire.',
+    image: LCF,
+    tags: [ 'Expo Go' , 'React Native' ,'JavaScript', 'Mobile Development'],
+    source: null,
+    website: null,
+    transition: 'click to see summary',
+    summary: 'Built a mobile inventory tracking app in Expo Go (React Native) to streamline wine inventory management at Malivoire. The app features a dynamic search-and-match system with a scrollable wine list,' +
+    'allowing users to quickly locate entries or add/delete items if missing. State management was used to track user inputs for skids, cases, and loose bottles, which were automatically converted into total bottle counts.'+
+    ' Data was persisted locally using AsyncStorage and formatted into an Excel-compatible file with structured rows for each entry. A download function enabled users to export the file directly to their device for reporting. ' +
+    'The project was inspired by a conversation with my dad, Malivoire’s GM, who identified inefficiencies in their existing manual process, and I built it as a fun project to help him out while developing my mobile app skills.'
+  },
+
   {
     title: 'H2O2 Detection System',
     description: 'Camera system designed to detect and log hydrogen peroxide spray presence.',
@@ -43,7 +58,7 @@ const projects = [
     summary: 'Designed and implemented a two-axis motor control system using an STM32 microcontroller equipped with a multi-channel, 8-bit ADC. Two potentiometers were connected to separate ADC channels to control the voltage input, with the ADC output used to determine motor speed and direction (including reverse). Four non-vectored interrupts were programmed to detect limit switch activations and define the travel bounds of each axis. The system was used to guide a target to a specified coordinate, with its speed and positional accuracy evaluated over three trials based on instructor-defined test scenarios.'
   },
   {
-    title: 'Modelling Segway - SimluationXXX',
+    title: 'Modelling Segway - SimluationX',
     description: 'Built a Segway simulation in SimulationX and optimized how far it could travel within specific limits.',
     image: SimX,
     tags: ['SimulationX', 'Simulink', 'ODEs'],
